@@ -11838,4 +11838,10 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+#navbar-example2 {
+  position: sticky;
+  top: 56px; /* 控制距離 */
+  z-index: 1000; /* 確保固定後 tab 在最上層 */
+  background-color: white; /* 滾動後依然保持背景色 */
 }/*# sourceMappingURL=all.css.map */
